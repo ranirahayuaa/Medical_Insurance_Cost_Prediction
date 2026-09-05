@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-09-05 10:15:43",
+  "total_models": 7,
+  "models": [
+    {
+      "model_name": "Linear Regression",
+      "metrics": {
+        "rmse_train": 6105.789320191615,
+        "rmse_test": 5799.587091438359,
+        "r2_train": 0.7417049283233981,
+        "r2_test": 0.7833463107364537,
+        "cv_score": 0.73394292442297
+      },
+      "status": "Success"
+    },
+    {
+      "model_name": "Ridge Regression",
+      "metrics": {
+        "rmse_train": 6105.797289939543,
+        "rmse_test": 5800.156772780016,
+        "r2_train": 0.7417042540295933,
+        "r2_test": 0.7833037457661383,
+        "cv_score": 0.7339583784793503
+      },
+      "status": "Success"
+    },
+    {
+      "model_name": "Lasso Regression",
+      "metrics": {
+        "rmse_train": 6105.789320242807,
+        "rmse_test": 5799.589352009245,
+        "r2_train": 0.7417049283190669,
+        "r2_test": 0.7833461418412857,
+        "cv_score": 0.7339430120212769
+      },
+      "status": "Success"
+    },
+    {
+      "model_name": "Decision Tree",
+      "metrics": {
+        "rmse_train": 494.20598375812835,
+        "rmse_test": 6881.111204855228,
+        "r2_train": 0.9983078124756305,
+        "r2_test": 0.6950075471882797,
+        "cv_score": 0.6942364499851559
+      },
+      "status": "Success"
+    },
+    {
+      "model_name": "Random Forest",
+      "metrics": {
+        "rmse_train": 1919.7647108362096,
+        "rmse_test": 4571.501475177018,
+        "r2_train": 0.9744654329628125,
+        "r2_test": 0.8653861739369313,
+        "cv_score": 0.8266160909196895
+      },
+      "status": "Success"
+    },
+    {
+      "model_name": "Gradient Boosting",
+      "metrics": {
+        "rmse_train": 3836.0650334866227,
+        "rmse_test": 4351.106228083052,
+        "r2_train": 0.8980459663933704,
+        "r2_test": 0.8780529462228404,
+        "cv_score": 0.8403685272689978
+      },
+      "status": "Success"
+    },
+    {
+      "model_name": "XGBoost",
+      "metrics": {
+        "rmse_train": 919.7655612011001,
+        "rmse_test": 4822.991168492682,
+        "r2_train": 0.9941387967942534,
+        "r2_test": 0.8501678977480663,
+        "cv_score": 0.7937999788706285
+      },
+      "status": "Success"
+    }
+  ]
+}

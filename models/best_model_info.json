@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-05 10:16:09",
+  "best_model": {
+    "name": "Random Forest (Tuned)",
+    "parameters": {
+      "max_depth": 10,
+      "min_samples_leaf": 4,
+      "min_samples_split": 10,
+      "n_estimators": 200
+    },
+    "performance": {
+      "rmse_test": 4352.630843023141,
+      "r2_test": 0.8779674714660052,
+      "mae_test": 2435.3205604503187,
+      "cv_score": 0.842238108576011
+    },
+    "feature_importance": {
+      "age": 0.12712991076334812,
+      "sex": 0.00257951506132518,
+      "bmi": 0.19091170904425372,
+      "children": 0.01107932465970023,
+      "smoker": 0.6615790510511542,
+      "region": 0.0067204894202186225
+    }
+  }
+}
